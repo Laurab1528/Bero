@@ -5,8 +5,8 @@ import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import MessagingSection from "./components/MessagingSection";
 import Footer from "./components/Footer";
-import PaymentSection from './components/PaymentSection';
 import FAQSection from './components/FAQSection';
+import Form from './components/Form';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <CardSection />
           <ChartSection />
           <MessagingSection />
-          <PaymentSection />
+          <Form />
           <FAQSection />
         </MainStyled>
       </OuterLayout>

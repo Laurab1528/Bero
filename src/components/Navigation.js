@@ -20,7 +20,7 @@ function Navigation() {
                     <a href="">Pricing</a>
                 </li>
             </ul>
-            <PrimaryButton name={'Sign Up'} />
+            
         </NavigationStyled>
     )
 }

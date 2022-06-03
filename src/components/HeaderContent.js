@@ -63,7 +63,7 @@ const HeaderContentStyled = styled.div`
         display: flex;
         justify-content: center;
         .phone{
-            width: 80%;
+            width: 50%;
         }
         .ring1{
             position: absolute;
