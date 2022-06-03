@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-//import './FormStyles.css'
 import styled from 'styled-components';
 
 import { db } from '../database/Firebase'
@@ -85,7 +84,7 @@ const FormStyles = styled.div`
         padding: 2rem;
     }
     input{
-        border-radius: 50px;
+        border-radius: 20px;
         border: 1px solid var(--border-colour); 
         padding: 0.5rem;
         margin: 0.5rem;
