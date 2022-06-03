@@ -1,19 +1,16 @@
-import React from 'react';
 import styled from 'styled-components';
-import { InnerLayout } from '../styles/Layouts';
 import lines from '../img/lines.svg';
 import questions from '../questions';
+import { InnerLayout } from '../styles/Layouts';
 import Question from './Question';
 
 function FAQSection() {
     return (
         <FaqStyled>
             <InnerLayout>
-                <h3 className="small-heading">Frequently <span>asked questions</span></h3>
+                <h3 className="small-heading">Preguntas <span>más comunes</span></h3>
                 <p className="c-para">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Assumenda maxime ipsa nam expedita dolorem distinctio illo 
-                    ad doloribus atque fuga, Nihil laboriosam beatae fugit.
+                Estas son unas de las preguntas más frecuentes que hemos visto al rededor del tema, que se nos realizan.
                 </p>
                 <div className="lines">
                     <img src={lines} alt="" />
