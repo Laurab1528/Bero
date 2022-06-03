@@ -7,6 +7,7 @@ import MessagingSection from "./components/MessagingSection";
 import Footer from "./components/Footer";
 import FAQSection from './components/FAQSection';
 import Form from './components/Form';
+import InfoBero from './components/InfoBero';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <OuterLayout>
         <MainStyled>
+          <InfoBero/>
           <CardSection />
           <ChartSection />
           <MessagingSection />
