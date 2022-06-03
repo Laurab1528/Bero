@@ -1,7 +1,5 @@
 import styled from 'styled-components';
-import message2 from '../img/message_blue.svg';
-import message1 from '../img/message_pink.svg';
-import phone from '../img/phone.svg';
+import phone from '../img/phone.png';
 import ring1 from '../img/ring_orange.svg';
 import Secondarybutton from './SecondaryButton';
 
@@ -21,8 +19,8 @@ function HeaderContent() {
                 <div className="right-content">
                 <img src={phone} alt="" className="phone" />
                 <img src={ring1} alt="" className="ring1" />
-                <img src={message1} alt="" className="message1" />
-                <img src={message2} alt="" className="message2" />
+                {/* <img src={message1} alt="" className="message1" />
+                <img src={message2} alt="" className="message2" /> */}
             </div>
         </HeaderContentStyled>
     )
@@ -61,7 +59,7 @@ const HeaderContentStyled = styled.div`
         display: flex;
         justify-content: center;
         .phone{
-            width: 80%;
+            width: 50%;
         }
         .ring1{
             position: absolute;
