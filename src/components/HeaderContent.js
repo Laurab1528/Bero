@@ -11,7 +11,7 @@ function HeaderContent() {
             
             <div className="left-content">
                 <div className="left-text-container">
-                    <h1>   INVIERTE EN BIENES RAICES DESDE BAJOS MONTOS.</h1>
+                    <h1>Invertir en bienes raices desde bajos montos.</h1>
                     <p className="white">
                     Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD invirtiendo desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
                     </p>
