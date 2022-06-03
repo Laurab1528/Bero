@@ -1,13 +1,13 @@
 import Header from './components/Header';
 import { OuterLayout } from './styles/Layouts';
 import styled from 'styled-components';
-import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import MessagingSection from "./components/MessagingSection";
 import Footer from "./components/Footer";
 import FAQSection from './components/FAQSection';
 import Form from './components/Form';
 import InfoBero from './components/InfoBero';
+import Founders from './components/Founders';
 
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
       <OuterLayout>
         <MainStyled>
           <InfoBero/>
-          <CardSection />
           <ChartSection />
           <MessagingSection />
           <Form />
+          <Founders/>
           <FAQSection />
         </MainStyled>
       </OuterLayout>
