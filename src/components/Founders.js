@@ -14,7 +14,7 @@ function Founders() {
                     <img src={santiago} alt="" />
                 </div>
                 <p className="m-para">
-                Es un ingeniero de sistemas de la universidad eafit. Apasionado en el tema de blockchain. Desarrollador  de aplicaciones móviles con Flutter. He trabajado en bancolombia en el ares de arquitectura de innovación como desarrollador, en imagine apps como desarrollador Flutter y hice un semestre de intercambio en la universidad FHNW de suiza.
+                Ingeniero de sistemas de la universidad eafit. Apasionado en el tema de blockchain. Desarrollador  de aplicaciones móviles con Flutter. He trabajado en bancolombia en el ares de arquitectura de innovación como desarrollador, en imagine apps como desarrollador Flutter y hice un semestre de intercambio en la universidad FHNW de suiza.
                 </p>
             </div>
             <div className="left-items">

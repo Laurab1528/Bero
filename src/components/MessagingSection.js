@@ -24,7 +24,7 @@ function MessagingSection () {
           <div className='title-para'>Distribución de utilidades</div>
           <p className='m-para'>
             Bero se encarga de distribuir el arrendamiento mensual según el
-            porcentaje de participación. Bero en el momento de la venta del
+            porcentaje de participación.<br></br>Bero en el momento de la venta del
             inmueble (2 o 3 años según propiedad) distribuirá el capital
             aportado más la valorización de la propiedad.
           </p>

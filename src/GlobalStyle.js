@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -49,6 +49,9 @@ const GlobalStyle = createGlobalStyle`
 
     //Utilities
     .c-para{
+        text-align: center;
+    }
+    .title-message{
         text-align: center;
     }
 

@@ -36,7 +36,7 @@ function Footer() {
                                 <a href="#">Politica de Tratamiento</a>
                             </li>
                             <li>
-                                <a href="#">Contactanos</a>
+                                <a href="#">Contáctanos</a>
                             </li>
                         </div>
                     </ul>
