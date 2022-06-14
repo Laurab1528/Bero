@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import { InnerLayout } from '../styles/Layouts';
 import logo from '../img/berologoColorSinCirculo.png';
+import { InnerLayout } from '../styles/Layouts';
 
 function Footer() {
     return (
@@ -12,43 +11,32 @@ function Footer() {
                        <div className="logo-items">
                         <img src={logo} alt="" />
                             <p>
-                                Copyright @2021 LoremIpsum. <br />
-                                All rights reserved.
+                                Copyright @2021 Bero. <br />
+                                Todos los derechos reservados.
                             </p>
                        </div>
                     </div>
                     <ul className="botton-nav">
                         <div className="links1">
                             <li>
-                                <a href="#">Team</a>
+                                <a href='https://www.linkedin.com/company/bero-app/' target='_blank' rel="noreferrer">Linkedln</a>
                             </li>
                             <li>
-                                <a href="#">Press</a>
+                                <a href='https://www.instagram.com/bero_app/?utm_medium=copy_link'
+                        target='_blank' rel="noreferrer">Instagram</a>
                             </li>
-                            <li>
-                                <a href="#">Fees</a>
-                            </li>
+                         
                         </div>
-                        <div className="links2">
-                            <li>
-                                <a href="#">Services</a>
-                            </li>
-                            <li>
-                                <a href="#">Projects</a>
-                            </li>
-                            <li>
-                                <a href="#">Affiliate</a>
-                            </li>
-                        </div>
+                        
                         <div className="links3">
                             <li>
-                                <a href="#">Terms of use</a>
+                                <a href="#">Terminos y condiciones</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#">Politica de Tratamiento</a>
                             </li>
                             <li>
-                                <a href="#">Contact us</a>
+                                <a href="#">Contactanos</a>
                             </li>
                         </div>
                     </ul>

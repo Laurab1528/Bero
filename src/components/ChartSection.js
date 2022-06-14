@@ -11,7 +11,7 @@ function ChartSection() {
                     <div className="chart-left">
                         <div className="stats">
                             <div className="stats-money">
-                                <ChartStats name={'Balance'} amount={'$1.200'} />
+                                <ChartStats name={'Balance'} amount={'$1.2 M'} />
                                 <ChartStats name={'Rentabilidad anual'} amount={'12%'} />
                             </div>
                             <img src={chart} alt="" />
@@ -22,7 +22,7 @@ function ChartSection() {
                         Monitorea en cualquier momento tú inversión.
                         </h2>
                         <p>
-                        Por medio de la tecnología tendrás el manejo de tu inversión y seguimiento de crecimiento adquirido en el transcurso.
+                        Por medio de la tecnología tendrás el manejo de tu inversión y seguimiento de la rentabilidad adquirida en el transcurso del tiempo invertido.
                         </p>
                         {/* <AnimatedButton name={'Learn More'} /> */}
                     </div>

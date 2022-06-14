@@ -12,7 +12,7 @@ function HeaderContent() {
                 <div className="left-text-container">
                     <h1>Invertir en bienes raices desde bajos montos.</h1>
                     <p className="white">
-                    Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD invirtiendo desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
+                    Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD. Desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
                     </p>
                     {/* <Secondarybutton name={'Registrate'}/> */}
                 </div>

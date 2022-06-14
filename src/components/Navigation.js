@@ -8,9 +8,9 @@ function Navigation() {
                 <img src={logo} alt="" />
             </div>
             <ul>
-                <li>
+                {/* <li>
                     <a href="">Inicio</a>
-                </li>
+                </li> */}
                 {/* <li>
                     <a href="">Features</a>
                 </li>

@@ -1,8 +1,7 @@
-import React from 'react'
 import styled from 'styled-components';
-import santiago from '../img/santiago.png';
-import laura from '../img/laura.png';
 import jhon from '../img/jhon.png';
+import laura from '../img/laura.png';
+import santiago from '../img/santiago.png';
 import sebas from '../img/sebas.png';
 import { InnerLayout } from '../styles/Layouts';
 
@@ -15,7 +14,7 @@ function Founders() {
                     <img src={santiago} alt="" />
                 </div>
                 <p className="m-para">
-                Soy un ingeniero de sistemas de la universidad eafit. Apasionado en el tema de blockchain. Desarrollador  de aplicaciones móviles con Flutter. He trabajado en bancolombia en el ares de arquitectura de innovación como desarrollador, en imagine apps como desarrollador Flutter y hice un semestre de intercambio en la universidad FHNW de suiza.
+                Es un ingeniero de sistemas de la universidad eafit. Apasionado en el tema de blockchain. Desarrollador  de aplicaciones móviles con Flutter. He trabajado en bancolombia en el ares de arquitectura de innovación como desarrollador, en imagine apps como desarrollador Flutter y hice un semestre de intercambio en la universidad FHNW de suiza.
                 </p>
             </div>
             <div className="left-items">

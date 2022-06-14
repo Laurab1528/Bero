@@ -6,7 +6,8 @@ function MessagingSection () {
     <InnerLayout>
       <MessageStyle>
         <div className='left-items'>
-        <div className='title-para'>Recolección del dinero</div>
+          <h2 className = 'title-message'>3 Simples pasos</h2>
+        <div className='title-para'>Escogencia del inmueble</div>
           <p className='m-para'>
             Bero se encarga de analizar exhaustivamente los diferentes inmuebles
             para escoger los que mayor probabilidad de éxito tienen.
@@ -42,7 +43,14 @@ const MessageStyle = styled.section`
     }
   }
 
+
   .left-items {
+    .title-message{
+      display:flex;
+      font-size: 4rem;
+      align-items: center;
+      padding:2rem 0;
+      }
     position: relative;
     padding-right: 2rem;
     .m-para {
