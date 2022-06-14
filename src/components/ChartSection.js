@@ -1,9 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
+import chart from '../img/chart.svg';
 import { InnerLayout } from '../styles/Layouts';
 import ChartStats from './ChartStats';
-import chart from '../img/chart.svg';
-import AnimatedButton from './AnimatedButton';
 
 function ChartSection() {
     return (
@@ -21,12 +19,12 @@ function ChartSection() {
                     </div>
                     <div className="chart-right">
                         <h2 className="secondary-heading">
-                        Monitore en cualquier momento tú inversión.
+                        Monitorea en cualquier momento tú inversión.
                         </h2>
                         <p>
                         Por medio de la tecnología tendrás el manejo de tu inversión y seguimiento de crecimiento adquirido en el transcurso.
                         </p>
-                        <AnimatedButton name={'Learn More'} />
+                        {/* <AnimatedButton name={'Learn More'} /> */}
                     </div>
                 </div>
             </InnerLayout>

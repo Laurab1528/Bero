@@ -1,6 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-import PrimaryButton from './PrimaryButton';
 import logo from '../img/beroLogo.png';
 
 function Navigation() {
@@ -11,14 +9,14 @@ function Navigation() {
             </div>
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">Inicio</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="">Features</a>
                 </li>
                 <li>
                     <a href="">Pricing</a>
-                </li>
+                </li> */}
             </ul>
             
         </NavigationStyled>

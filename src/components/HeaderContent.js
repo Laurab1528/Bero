@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import phone from '../img/phone.png';
-import ring1 from '../img/ring_orange.svg';
 import message1 from '../img/message_blue.svg';
 import message2 from '../img/message_pink.svg';
-import Secondarybutton from './SecondaryButton';
+import phone from '../img/phone.png';
+import ring1 from '../img/ring_orange.svg';
 
 function HeaderContent() {
     return (
@@ -15,7 +14,7 @@ function HeaderContent() {
                     <p className="white">
                     Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD invirtiendo desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
                     </p>
-                    <Secondarybutton name={'Register Now'}/>
+                    {/* <Secondarybutton name={'Registrate'}/> */}
                 </div>
                 </div>
                 <div className="right-content">

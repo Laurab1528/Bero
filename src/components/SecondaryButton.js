@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import arrow from '../img/arrow.svg'
+import arrow from '../img/arrow.svg';
 
 function Secondarybutton({name}) {
     return (
@@ -10,6 +9,7 @@ function Secondarybutton({name}) {
         </SecondaryButtonStyled>
     )
 }
+
 
 const SecondaryButtonStyled = styled.button`
     background-color: var(--dark-primary);

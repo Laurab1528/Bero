@@ -1,6 +1,5 @@
-import React from 'react'
+import YouTube from 'react-youtube';
 import styled from 'styled-components';
-import YouTube from 'react-youtube'
 
 function InfoBero() {
     return (
@@ -19,6 +18,8 @@ const InfoBeroStyled = styled.header`
     height: 30rem;
     padding: 2rem;
     box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+    display:flex;
+    justify-content: center;
     h4{
         font-size: 3rem;
         color: var(--purple-primary);
