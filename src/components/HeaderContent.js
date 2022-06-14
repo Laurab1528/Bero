@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import phone from '../img/phone.png';
 import ring1 from '../img/ring_orange.svg';
+import message1 from '../img/message_blue.svg';
+import message2 from '../img/message_pink.svg';
 import Secondarybutton from './SecondaryButton';
 
 function HeaderContent() {
@@ -9,7 +11,7 @@ function HeaderContent() {
             
             <div className="left-content">
                 <div className="left-text-container">
-                    <h1>   INVIERTE EN BIENES RAICES DESDE BAJOS MONTOS.</h1>
+                    <h1>Invertir en bienes raices desde bajos montos.</h1>
                     <p className="white">
                     Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD invirtiendo desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
                     </p>
@@ -19,8 +21,8 @@ function HeaderContent() {
                 <div className="right-content">
                 <img src={phone} alt="" className="phone" />
                 <img src={ring1} alt="" className="ring1" />
-                {/* <img src={message1} alt="" className="message1" />
-                <img src={message2} alt="" className="message2" /> */}
+                <img src={message1} alt="" className="message1" />
+                <img src={message2} alt="" className="message2" />
             </div>
         </HeaderContentStyled>
     )
@@ -41,7 +43,7 @@ const HeaderContentStyled = styled.div`
             color:white;
         }
         h1{
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 600;
             @media screen and (max-width: 700px){
                 font-size: 3rem;
