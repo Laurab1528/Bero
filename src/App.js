@@ -1,37 +1,34 @@
-import Header from './components/Header';
-import { OuterLayout } from './styles/Layouts';
-import styled from 'styled-components';
-import ChartSection from "./components/ChartSection";
-import MessagingSection from "./components/MessagingSection";
-import Footer from "./components/Footer";
-import FAQSection from './components/FAQSection';
-import Form from './components/Form';
-import InfoBero from './components/InfoBero';
-import Founders from './components/Founders';
+import styled from 'styled-components'
+import ChartSection from './components/ChartSection'
+import FAQSection from './components/FAQSection'
+import Footer from './components/Footer'
+import Form from './components/Form'
+import Founders from './components/Founders'
+import Header from './components/Header'
+import InfoBero from './components/InfoBero'
+import MessagingSection from './components/MessagingSection'
+import { OuterLayout } from './styles/Layouts'
 
+function App () {
 
-function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <OuterLayout>
         <MainStyled>
-          <InfoBero/>
+          <InfoBero />
           <ChartSection />
           <MessagingSection />
           <Form />
-          <Founders/>
+          <Founders />
           <FAQSection />
         </MainStyled>
       </OuterLayout>
       <Footer />
     </div>
-  );
+  )
 }
 
-const MainStyled = styled.main`
+const MainStyled = styled.main``
 
-
-`;
-
-export default App;
+export default App

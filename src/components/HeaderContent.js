@@ -47,6 +47,9 @@ const HeaderContentStyled = styled.div`
             @media screen and (max-width: 700px){
                 font-size: 3rem;
             }
+            @media screen and (max-width: 867px){
+                font-size: 2rem;
+            }
         }
 
         .white{

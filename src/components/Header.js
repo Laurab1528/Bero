@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components';
 import bg from '../img/bg.svg';
 import HeaderContent from './HeaderContent';
@@ -32,6 +31,9 @@ const HeaderStyled = styled.header`
         }
         @media screen and (max-width: 990px){
             padding: 5rem 4rem;
+        }
+        @media screen and (max-width: 760px){
+            padding: 5rem 2rem;
         }
     }
 `;
