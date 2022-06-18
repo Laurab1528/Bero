@@ -73,22 +73,30 @@ const Form = () => {
 }
 
 const FormStyles = styled.div`
-  @media screen and (max-width: 1347px) {
-    padding: 5rem 14rem;
-  }
-  @media screen and (max-width: 1186px) {
-    padding: 5rem 8rem;
-  }
-  @media screen and (max-width: 990px) {
-    padding: 5rem 4rem;
-  }
-  @media screen and (max-width: 760px) {
-    padding: 5rem 4rem;
-  }
+
   .form-register {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem;
+    @media screen and (max-width: 1347px) {
+        padding: 5rem 14rem;
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 1186px) {
+        padding: 5rem 8rem;
+        font-size: 3rem;
+
+      }
+      @media screen and (max-width: 990px) {
+        padding: 5rem 4rem;
+        font-size: 2rem;
+
+    }
+      @media screen and (max-width: 760px) {
+        padding: 5rem 4rem;
+        font-size: 2rem;
+      
+    }
   }
   input {
     border-radius: 20px;
