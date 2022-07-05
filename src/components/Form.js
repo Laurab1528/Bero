@@ -40,35 +40,37 @@ const Form = () => {
   const [loader, setLoader] = useState(false)
 
   return (
-    <FormStyles>
-      <form className='form' onSubmit={guardarDatos}>
-        <h4 className='secondary-heading'>Registrate en la lista de espera.</h4>
-        <div className='form-register'>
-          <input
-            type='text'
-            name='nombre'
-            placeholder='Ingresa tu nombre'
-            onChange={capturarInputs}
-            value={user.nombre}
-          />
-          <input
-            type='text'
-            name='email'
-            placeholder='Ingresa tu email'
-            onChange={capturarInputs}
-            value={user.email}
-          />
-          <input
-            type='text'
-            name='numero'
-            placeholder='Ingresa tu numero'
-            onChange={capturarInputs}
-            value={user.numero}
-          />
-          <AnimatedButton className='btn' name={'Enviar'} />
-        </div>
-      </form>
+    <section id="Registrar">
+      <FormStyles>
+        <form className='form' onSubmit={guardarDatos}>        
+          <h2 className="small-heading">Regístrate en la <span>lista de espera</span></h2>
+          <div className='form-register'>
+            <input
+              type='text'
+              name='nombre y apellido'
+              placeholder='Ingresa tu nombre y apellido'
+              onChange={capturarInputs}
+              value={user.nombre}
+            />
+            <input
+              type='text'
+              name='email'
+              placeholder='Ingresa tu email'
+              onChange={capturarInputs}
+              value={user.email}
+            />
+            <input
+              type='text'
+              name='numero'
+              placeholder='Ingresa tu numero'
+              onChange={capturarInputs}
+              value={user.numero}
+            />
+            <AnimatedButton className='btn' name={'Enviar'} />
+          </div>
+        </form>
     </FormStyles>
+  </section>  
   )
 }
 

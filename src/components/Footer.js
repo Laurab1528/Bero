@@ -30,10 +30,10 @@ function Footer() {
                         
                         <div className="links3">
                             <li>
-                                <a href="#">Terminos y condiciones</a>
+                                <a href="#">Términos y condiciones</a>
                             </li>
                             <li>
-                                <a href="#">Politica de Tratamiento</a>
+                                <a href="#">Política de Tratamiento</a>
                             </li>
                             <li>
                                 <a href="#">Contáctanos</a>

@@ -3,12 +3,13 @@ import bg from '../img/bg.svg';
 import HeaderContent from './HeaderContent';
 import Navigation from './Navigation';
 
+
 function Header() {
     return (
         <HeaderStyled>
             <div className="header-content">
                 <Navigation />
-                <HeaderContent />
+                <HeaderContent />            
             </div>
         </HeaderStyled>
     )

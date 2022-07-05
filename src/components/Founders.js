@@ -4,42 +4,71 @@ import laura from '../img/laura.png';
 import santiago from '../img/santiago.png';
 import sebas from '../img/sebas.png';
 import { InnerLayout } from '../styles/Layouts';
+import { Dimensions } from 'react-native';
+const dimensions = Dimensions.get('window');
+const imageHeight = Math.round(dimensions.height * 0.2); 
+const imageWidth = Math.round(dimensions.width * 0.1);
 
 function Founders() {
     return (
+        
         <InnerLayout>
+            <h1 className="small-heading">Equipo fundador</h1>
+            <br></br>
         <FoundersStyled>
+        
             <div className="left-items">
+                
                 <div className="left-text-container">
-                    <img src={santiago} alt="" />
+                    <img style={{ height: imageHeight, width: imageWidth }} src={santiago} alt="" />
                 </div>
+                <br></br>
+                <p className='title-para'>Santiago Albisser</p>
+                
+                
+                <br></br>
                 <p className="m-para">
-                Ingeniero de sistemas de la universidad eafit. Apasionado en el tema de blockchain. Desarrollador  de aplicaciones móviles con Flutter. He trabajado en bancolombia en el ares de arquitectura de innovación como desarrollador, en imagine apps como desarrollador Flutter y hice un semestre de intercambio en la universidad FHNW de suiza.
+                <h1>Desarrollador web / app</h1>
+                <p class="text-justify">Experiencia trabajado en Bancolombia uno de los bancos más reconocidos de Colombia en el área de arquitectura de innovación como desarrollador y en Imagine apps como desarrollador Flutter.También tiene experiencia trabajando en Suiza en su intercambio con la universidad.</p>
                 </p>
             </div>
             <div className="left-items">
                 <div className="left-text-container">
-                    <img src={laura} alt="" />
+                    <img style={{ height: imageHeight, width: imageWidth }} src={laura} alt="" />
+                    <br></br>
+                    <p>Laura Bermúdez</p>
+                    <br></br>
                 </div>
                 <p className="m-para">
-                Magister en Finanzas Cuantitativas de la Universidad de Alcalá. Experiencia en el sector financiero mayormente en temas de inversiones, trabajando en Protección uno de los fondos de pensiones más importantes de Colombia y en BTG Pactual uno de los bancos de inversión más reconocidos de LATAM.
+                <h1>Experta en inversiones </h1>
+                <p class="text-justify">Magister en Finanzas Cuantitativas de la Universidad de Alcalá. Experiencia en el sector financiero. Ha trabajado en Protección uno de los fondos de pensiones más importantes de Colombia y en BTG Pactual que es uno de los bancos de inversión más reconocidos de LATAM.</p>
                 </p>
             </div>
             </FoundersStyled><FoundersStyled>
             <div className="left-items">
                 <div className="left-text-container">
-                    <img src={jhon} alt="" />
+                    <img style={{ height: imageHeight, width: imageWidth }} src={jhon} alt="" />
+                    <br></br>
+                    <p>Jhon Zuluaga</p>
+                    <br></br>
                 </div>
                 <p className="m-para">
-                Desarrollador Blockchain con una amplia experiencia en la creación de wallet móviles y tokenización de instrumentos para las finanzas descentralizadas. He trabajado para grandes compañías como Suramericana, Bancolombia, Michal Page y actualmente en Kumuly con la visión de descentralizar la economía por medio de la tecnología blockchain con bitcoin.
+                <h1>Desarrollador blockchain</h1>
+                <p class="text-justify">Amplia experiencia en la creación de wallet móviles y tokenización de instrumentos para las finanzas descentralizadas(DEFI). Ha trabajado para grandes compañías locales e internacionales como: Suramericana, Bancolombia, Michael Page y Kumuly.</p>
                 </p>
             </div>
             <div className="left-items">
                 <div className="left-text-container">
-                    <img src={sebas} alt="" />
+                    <img style={{ height: imageHeight, width: imageWidth }} src={sebas} alt="" /> 
+                    <br></br>               
+                    <p>Sebastián Ortiz</p>
+                   
+                    
                 </div>
                 <p className="m-para">
-                Ingeniero Administrador con alta experiencia en inversiones, ventas y mercadeo. Fue consultor financiero en Protección el segundo fondo de pensiones más grande de Colombia administrando una cartera de clientes con un valor de fondo 35 millones de dólares. Certificado ante el autorregulador del mercado de valores (AMV).
+                <h1>Mercadeo y ventas </h1>
+                
+                <p class="text-justify">Experiencia como consultor financiero en Protección, el segundo fondo de pensiones más grande de Colombia, administrando una cartera de clientes por un valor de fondo 35 millones de dólares.</p>
                 </p>
             </div>
         </FoundersStyled>

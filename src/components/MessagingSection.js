@@ -4,30 +4,31 @@ import { InnerLayout } from '../styles/Layouts'
 function MessagingSection () {
   return (
     <InnerLayout>
+      <h1 className="small-heading">3 Simples pasos</h1>
+      <br></br>
       <MessageStyle>
-        <div className='left-items'>
-          <h2 className = 'title-message'>3 Simples pasos</h2>
+        
+        
+        <div className='left-items'>          
+          
+          <br></br>
         <div className='title-para'>Escogencia del inmueble</div>
           <p className='m-para'>
-            Bero se encarga de analizar exhaustivamente los diferentes inmuebles
-            para escoger los que mayor probabilidad de éxito tienen.
+            Seleccionas el proyecto en el que desees invertir.
           </p>
+          <br></br>
         </div>
         <div className='left-items'>
-          <div className='title-para'>Recolección del dinero</div>
+          <div className='title-para'>Cantidad para invertir</div>
           <p className='m-para'>
-            Bero se encarga de recoger el dinero de los inversores para poder
-            pagar la totalidad del inmueble.
+          Eliges la cantidad a invertir. Cada proyecto tiene especificado el monto mínimo y la rentabilidad esperada de la inversión en su descripción.
           </p>
+          <br></br>
         </div>
         <div className='left-items'>
-          <div className='title-para'>Distribución de utilidades</div>
+          <div className='title-para'>Obtención de la rentabilidad</div>
           <p className='m-para'>
-            Bero se encarga de distribuir el arrendamiento mensual según el
-            porcentaje de participación.<br></br>Bero en el momento de la venta del
-            inmueble (2 o 3 años según propiedad) distribuirá el capital
-            aportado más la valorización de la propiedad.
-          </p>
+          Recibe la renta mensual por la Compra/Venta o Compra/Renta del proyecto.          </p>
         </div>
       </MessageStyle>
     </InnerLayout>

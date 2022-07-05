@@ -17,11 +17,11 @@ function AnimatedButton({name}) {
 
 const AnimatedButtonStyled = styled.button`
     background-color: var(--dark-primary);
-    padding: 1rem 2rem;
+    padding: 0.1rem 0.1rem;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
     border: none;
     cursor: pointer;

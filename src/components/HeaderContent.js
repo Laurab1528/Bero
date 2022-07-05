@@ -2,22 +2,54 @@ import styled from 'styled-components';
 import message1 from '../img/message_blue.svg';
 import message2 from '../img/message_pink.svg';
 import phone from '../img/phone.png';
+import Registrar from '../components/Form'
 import ring1 from '../img/ring_orange.svg';
+import Primarybutton from '../components/PrimaryButton';
+import { BrowserRouter as Router} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+
+
+
 
 function HeaderContent() {
+   
+
+    
     return (
         <HeaderContentStyled>
             
             <div className="left-content">
                 <div className="left-text-container">
-                    <h1>Invertir en bienes raices desde bajos montos.</h1>
+                    <h1>Invertir en bienes raices desde bajos montos</h1>
                     <p className="white">
-                    Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLEJIDAD. Desde bajos montos y brindando a los inversionistas la rentabilidad mensual del arriendo y la valorización en el momento de la venta.
+                        Obtén RENTABILIDAD periódica invirtiendo en activos inmobiliarios. Hacemos las inversiones en propiedad raíz ACCESIBLES y SIN COMPLICACIONES
                     </p>
-                    {/* <Secondarybutton name={'Registrate'}/> */}
+                    <Router>
+                        <div>
+                            <a href="https://wa.link/5sgfqp" target="_blank" rel="noreferrer">
+                                { <Primarybutton name={'Contáctanos'}  />}
+                            </a>
+                        </div>
+                        <div>
+                            <br></br>
+                            <Link to="#Registrar" smooth>
+                                { <Primarybutton name={'Regístrate'}  />} <br></br><br></br>
+                            </Link>
+                        </div>
+
+
+
+                    </Router>     
+                    
+                                      
+                        
+                  
+                  
+
+                    
                 </div>
-                </div>
-                <div className="right-content">
+            </div>
+            <div className="right-content">
                 <img src={phone} alt="" className="phone" />
                 <img src={ring1} alt="" className="ring1" />
                 <img src={message1} alt="" className="message1" />
